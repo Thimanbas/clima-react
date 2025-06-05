@@ -1,12 +1,39 @@
-# React + Vite
+# 🌤️ Clima React (Weather App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather forecast application built with **React**, **Vite**, **HTML**, and **CSS**, using the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+Users can search for a city and view the current, minimum, and maximum temperatures in real time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
 
-## Expanding the ESLint configuration
+![Testando](https://github.com/user-attachments/assets/af1d4111-7918-446d-8346-d724fd736bae)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🧰 Technologies Used
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- HTML + CSS
+- [OpenWeatherMap API](https://openweathermap.org/api)
+
+## 🔍 Features
+
+- Search for any city
+- Display current, min, and max temperatures
+- Error handling for invalid city names
+- Clean and responsive interface
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Thimanbas/clima-react.git
+
+# Navigate into the project folder
+cd clima-react
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
