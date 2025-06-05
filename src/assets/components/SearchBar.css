@@ -1,0 +1,30 @@
+.searchbar__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.searchbar input {
+  height: 70px;
+  width: 400px;
+  padding-left: 20px;
+  border-radius: 25px 0 0 25px;
+  border: 0;
+  background-color: rgb(95, 95, 95);
+  font-size: 20px;
+}
+.searchbar input::placeholder {
+  color: #ffffff;
+}
+.searchbar button {
+  width: 60px;
+  height: 72px;
+  border: 0;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  background-color: rgb(65, 65, 65);
+}
+.searchbar button:hover {
+  transition: 0.5s;
+  scale: 1.1;
+  background-color: rgb(145, 145, 145);
+}
